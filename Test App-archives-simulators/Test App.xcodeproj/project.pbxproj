@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A50C13E2B6BC19000BD2A06 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4A50C13D2B6BC19000BD2A06 /* CryptoSwift */; };
+		4A50C1412B6BC1A200BD2A06 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4A50C1402B6BC1A200BD2A06 /* Alamofire */; };
+		4A50C1442B6BC21300BD2A06 /* SwiftyRSA in Frameworks */ = {isa = PBXBuildFile; productRef = 4A50C1432B6BC21300BD2A06 /* SwiftyRSA */; };
+		4A50C14C2B6BC3EC00BD2A06 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 4A50C14B2B6BC3EC00BD2A06 /* URLImage */; };
+		4A50C14D2B6BC3F900BD2A06 /* SwiftyRSA in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 4A50C1432B6BC21300BD2A06 /* SwiftyRSA */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4A50C14E2B6BC59E00BD2A06 /* URLImage_-214DFC6E96679022_PackageProduct.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C8282B6BAAE10076A854 /* URLImage_-214DFC6E96679022_PackageProduct.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		82D1C8312B6BAAE90076A854 /* paymentlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C8292B6BAAE20076A854 /* paymentlib.framework */; };
 		82D1C8322B6BAAE90076A854 /* paymentlib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C8292B6BAAE20076A854 /* paymentlib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		82D1C8332B6BAAEA0076A854 /* pspsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C82A2B6BAAE20076A854 /* pspsdk.framework */; };
 		82D1C8342B6BAAEA0076A854 /* pspsdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C82A2B6BAAE20076A854 /* pspsdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		82D1C8352B6BAAEB0076A854 /* spl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C8272B6BAAE00076A854 /* spl.framework */; };
 		82D1C8362B6BAAEB0076A854 /* spl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C8272B6BAAE00076A854 /* spl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		82D1C8372B6BAAEE0076A854 /* SwiftyRSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C82B2B6BAAE30076A854 /* SwiftyRSA.framework */; };
-		82D1C8382B6BAAEE0076A854 /* SwiftyRSA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C82B2B6BAAE30076A854 /* SwiftyRSA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		82D1C8392B6BAAEF0076A854 /* URLImage_-214DFC6E96679022_PackageProduct.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C8282B6BAAE10076A854 /* URLImage_-214DFC6E96679022_PackageProduct.framework */; };
-		82D1C83A2B6BAAEF0076A854 /* URLImage_-214DFC6E96679022_PackageProduct.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C8282B6BAAE10076A854 /* URLImage_-214DFC6E96679022_PackageProduct.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		82D693302B62FD0100146B93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D6932F2B62FD0100146B93 /* AppDelegate.swift */; };
 		82D693322B62FD0100146B93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D693312B62FD0100146B93 /* SceneDelegate.swift */; };
 		82D693342B62FD0100146B93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D693332B62FD0100146B93 /* ViewController.swift */; };
@@ -52,11 +54,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				4A50C14E2B6BC59E00BD2A06 /* URLImage_-214DFC6E96679022_PackageProduct.framework in Embed Frameworks */,
 				82D1C8322B6BAAE90076A854 /* paymentlib.framework in Embed Frameworks */,
+				4A50C14D2B6BC3F900BD2A06 /* SwiftyRSA in Embed Frameworks */,
 				82D1C8362B6BAAEB0076A854 /* spl.framework in Embed Frameworks */,
 				82D1C8342B6BAAEA0076A854 /* pspsdk.framework in Embed Frameworks */,
-				82D1C83A2B6BAAEF0076A854 /* URLImage_-214DFC6E96679022_PackageProduct.framework in Embed Frameworks */,
-				82D1C8382B6BAAEE0076A854 /* SwiftyRSA.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,10 +93,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				82D1C8352B6BAAEB0076A854 /* spl.framework in Frameworks */,
+				4A50C1412B6BC1A200BD2A06 /* Alamofire in Frameworks */,
 				82D1C8332B6BAAEA0076A854 /* pspsdk.framework in Frameworks */,
-				82D1C8372B6BAAEE0076A854 /* SwiftyRSA.framework in Frameworks */,
-				82D1C8392B6BAAEF0076A854 /* URLImage_-214DFC6E96679022_PackageProduct.framework in Frameworks */,
+				4A50C1442B6BC21300BD2A06 /* SwiftyRSA in Frameworks */,
+				4A50C14C2B6BC3EC00BD2A06 /* URLImage in Frameworks */,
 				82D1C8312B6BAAE90076A854 /* paymentlib.framework in Frameworks */,
+				4A50C13E2B6BC19000BD2A06 /* CryptoSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +202,10 @@
 			);
 			name = "Test App";
 			packageProductDependencies = (
+				4A50C13D2B6BC19000BD2A06 /* CryptoSwift */,
+				4A50C1402B6BC1A200BD2A06 /* Alamofire */,
+				4A50C1432B6BC21300BD2A06 /* SwiftyRSA */,
+				4A50C14B2B6BC3EC00BD2A06 /* URLImage */,
 			);
 			productName = "Test App";
 			productReference = 82D6932C2B62FD0100146B93 /* Test App.app */;
@@ -272,6 +280,10 @@
 			);
 			mainGroup = 82D693232B62FD0100146B93;
 			packageReferences = (
+				4A50C13C2B6BC19000BD2A06 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+				4A50C13F2B6BC1A200BD2A06 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				4A50C1422B6BC21300BD2A06 /* XCRemoteSwiftPackageReference "SwiftyRSA" */,
+				4A50C14A2B6BC3EC00BD2A06 /* XCRemoteSwiftPackageReference "url-image" */,
 			);
 			productRefGroup = 82D6932D2B62FD0100146B93 /* Products */;
 			projectDirPath = "";
@@ -520,8 +532,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chinmay.Test-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -553,8 +568,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chinmay.Test-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -675,6 +693,65 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4A50C13C2B6BC19000BD2A06 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		4A50C13F2B6BC1A200BD2A06 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		4A50C1422B6BC21300BD2A06 /* XCRemoteSwiftPackageReference "SwiftyRSA" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TakeScoop/SwiftyRSA";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		4A50C14A2B6BC3EC00BD2A06 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 3.0.0;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4A50C13D2B6BC19000BD2A06 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A50C13C2B6BC19000BD2A06 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+		4A50C1402B6BC1A200BD2A06 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A50C13F2B6BC1A200BD2A06 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		4A50C1432B6BC21300BD2A06 /* SwiftyRSA */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A50C1422B6BC21300BD2A06 /* XCRemoteSwiftPackageReference "SwiftyRSA" */;
+			productName = SwiftyRSA;
+		};
+		4A50C14B2B6BC3EC00BD2A06 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A50C14A2B6BC3EC00BD2A06 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 82D693242B62FD0100146B93 /* Project object */;
 }
